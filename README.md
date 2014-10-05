@@ -1,4 +1,9 @@
-corona
-======
+corona - The Intermediate cloud service provider
 
-Intermediate cloud service provider
+We propose Corona to solve problems in the existing Storage service. Corona acts as an intermediate CSP between Client and the existing Cloud Service Provider. This intermediate CSP shares the storage resources from the original CSP and provides it to multiple users to achieve 100% pay as you go service. This also achieves platform independency and eliminates the need for any application download by providing the entire service via web browser. Since all the operating systems, be it Mobile, PC or Mac have web browser they can enjoy equal benefits of the service. Corona is named after the natural phenomenon where the Moon comes in between the Sun and the Earth. Here the original CSP that we would use is the SUN and the user would be EARTH, Corona’s server would be an intermediate.
+
+The corona borrows the storage service and binds it with the web browser and a file manager on Corona’s server. Using only the web browser to provide the service is a single solution to platform dependency and application requirement issue. This new hybrid service is now provided to the user. The user uploads his files and can manage them via the corona’s browser based file manager. This is done so effectively that the user does not know that some other service provider is backing up corona. 
+
+100% pay as you service can be achieved by sharing of the storage service from the CSP. The same user quoted in the problem above wanted to use 1KB after 150GB without wanting to pay for 500GB with iDriveSync, this is now possible with corona. The user can use that 1KB and the rest of the space which he is not using will be automatically allocated to the other users and they will pay for the exact space they use.
+
+The above diagram illustrates the working of the corona’s server. We use a daemon from CSP take care of the transfer of the user’s files from the corona’s server the CSP’s server. The managing of the storage service is taken care by CSP’s Daemon. The file manager is what the user sees and uses to enter into the Storage service provided by corona.
